@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+    
+}
+
+
+ 
+
+
+header{
+padding-top: 20px;
+
+}
+
+.nav-header{
+max-width: 1600px;
+margin: o auto;
+display: flex;
+justify-content: space-between;
+margin: 0 100px;
+align-items: center;
+
+}
+nav .menu{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    align-items: center;
+ 
+
+}
+
+.btn{
+    background-color: rgba(58, 182, 110, 0.692);
+border: none;
+padding: 20px 30px;
+border-radius: 5px;
+font-size: 15px;
+}
+
