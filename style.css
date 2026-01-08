@@ -39,5 +39,52 @@ border: none;
 padding: 20px 30px;
 border-radius: 5px;
 font-size: 15px;
+cursor: pointer;
 }
 
+.button-container .btn-nocolor{
+border: 2px solid gray;
+padding: 20px 30px;
+border-radius: 5px;
+font-size: 15px;
+background-color:transparent;
+margin-bottom: 90px;
+cursor: pointer;
+
+}
+
+#banner{
+    /* border: 1px solid red; */
+    background-image: url(images/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 35px auto;
+    text-align: center;
+    
+}
+ #banner .banner-section h4 .tip-btn {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: red;
+    padding: 20px 30px;
+margin-top: 50px;
+border:none;
+cursor: pointer;
+border-radius: 5px;
+max-width: 1360px;
+ }
+
+#banner .banner-section h1 {
+    font-size: 66px;
+    margin:3px 5px;
+    font-weight: bolder;
+    color: green;
+}
+
+#banner .banner-section p{
+    font-size: 18px;
+    line-height: 20px;
+    color: aliceblue;
+margin-bottom: 25px;
+}
