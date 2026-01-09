@@ -17,7 +17,7 @@ padding-top: 20px;
 
 .nav-header{
 max-width: 1600px;
-margin: o auto;
+margin: 0 auto;
 display: flex;
 justify-content: space-between;
 margin: 0 100px;
@@ -32,6 +32,11 @@ nav .menu{
  
 
 }
+.menu a{
+    text-decoration: none;
+   color: black;
+    font-weight: 500;}
+
 
 .btn{
     background-color: rgba(58, 182, 110, 0.692);
@@ -87,4 +92,40 @@ max-width: 1360px;
     line-height: 20px;
     color: aliceblue;
 margin-bottom: 25px;
+}
+
+#info{
+ /* display: flex; */
+   
+    text-align: center;
+    margin: 80px auto;
+    max-width: 1360px;
+}
+
+/* ONLY the cards are flex  */
+
+.info-grid{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* card size */
+
+.info-note{
+    width: 25%;
+    padding: 25px;
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+
+#info .info-note {
+     width: 22%;
+    background: #f5f5f5;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.info-heading{
+    margin-bottom: 60px;
 }
