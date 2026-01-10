@@ -1,64 +1,89 @@
-*{
-    margin:0px;
-    padding:0px;
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    
-    
-}
 
-
- 
-
-
-header{
-padding-top: 20px;
 
 }
 
-.nav-header{
-max-width: 1600px;
-margin: 0 auto;
-display: flex;
-justify-content: space-between;
-margin: 0 100px;
-align-items: center;
+/* common */
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+header {
+    padding-top: 20px;
 
 }
-nav .menu{
+
+.nav-header {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+    align-items: center;
+
+}
+
+nav .menu {
     display: flex;
     gap: 20px;
     text-decoration: none;
     align-items: center;
- 
-
 }
+
 .menu a{
     text-decoration: none;
-   color: black;
-    font-weight: 500;}
+    color: black;
+    font-weight: 500;
+}
 
-
-.btn{
+.btn {
     background-color: rgba(58, 182, 110, 0.692);
-border: none;
-padding: 20px 30px;
-border-radius: 5px;
-font-size: 15px;
-cursor: pointer;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
 }
 
-.button-container .btn-nocolor{
-border: 2px solid gray;
-padding: 20px 30px;
-border-radius: 5px;
-font-size: 15px;
-background-color:transparent;
-margin-bottom: 90px;
-cursor: pointer;
-
+.btn:hover {
+    background-color: rgba(27, 58, 199, 0.692);
+    color:white;
+    
 }
 
-#banner{
+/* banner */
+ .banner-section  .tip-btn {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: rgb(85, 212, 73);
+    padding: 20px 30px;
+    margin-top: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 1360px;
+}
+
+#banner .banner-section h1 {
+    font-size: 66px;
+    margin: 3px 5px;
+    font-weight: bolder;
+    color: green;
+}
+
+#banner .banner-section p {
+    font-size: 18px;
+    line-height: 20px;
+    color: aliceblue;
+    margin-bottom: 25px;
+}
+
+#banner {
     /* border: 1px solid red; */
     background-image: url(images/hero-bg.png);
     background-size: cover;
@@ -66,37 +91,25 @@ cursor: pointer;
     position: relative;
     margin: 35px auto;
     text-align: center;
-    
+
 }
- #banner .banner-section h4 .tip-btn {
-    font-size: 20px;
-    margin-bottom: 15px;
-    color: red;
+
+.button-container .btn-no-color {
+    border: 2px solid gray;
     padding: 20px 30px;
-margin-top: 50px;
-border:none;
-cursor: pointer;
-border-radius: 5px;
-max-width: 1360px;
- }
+    border-radius: 5px;
+    font-size: 15px;
+    color:white;
+    background-color: transparent;
+    margin-bottom: 90px;
+    cursor: pointer;
 
-#banner .banner-section h1 {
-    font-size: 66px;
-    margin:3px 5px;
-    font-weight: bolder;
-    color: green;
 }
 
-#banner .banner-section p{
-    font-size: 18px;
-    line-height: 20px;
-    color: aliceblue;
-margin-bottom: 25px;
-}
 
-#info{
- /* display: flex; */
-   
+/* info */
+#info {
+    /* display: flex; */
     text-align: center;
     margin: 80px auto;
     max-width: 1360px;
@@ -104,7 +117,7 @@ margin-bottom: 25px;
 
 /* ONLY the cards are flex  */
 
-.info-grid{
+.info-grid {
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -112,75 +125,82 @@ margin-bottom: 25px;
 
 /* card size */
 
-.info-note{
+.info-note {
     width: 25%;
     padding: 25px;
     background: #f5f5f5;
     border-radius: 10px;
-    
+
 }
 
 #info .info-note {
-     width: 22%;
+    width: 22%;
     background: #f5f5f5;
     padding: 25px;
     border-radius: 10px;
     border: 1px solid red;
     max-width: 260px;
-    
-    
+
+
 }
 
-.info-note img{
+.info-note img {
     max-width: 40px;
     margin-bottom: 20px;
 }
 
-.info-note h3{
+.info-note h3 {
     font-size: 20px;
     color: #181818;
     margin-bottom: 20px;
 }
-.info-note p{
- font-size: 18px;
+
+.info-note p {
+    font-size: 18px;
     line-height: 20px;
     color: #757575;
-margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
-.info-heading{
+.info-heading {
     margin-bottom: 60px;
 }
 
-#tab{
+#tab {
     padding-top: 40px;
     display: flex;
     margin: 120px 120px;
 
 
 }
-.tab-container{
+
+.tab-container {
     margin-top: 130px;
 }
-.tab-container .tab-h{
+
+.tab-container .tab-h {
     color: green;
 }
-.tab-container .tab-h1{
-    margin: 20px auto ;
-    font-size:40px ;
+
+.tab-container .tab-h1 {
+    margin: 20px auto;
+    font-size: 40px;
     font-weight: bolder;
 }
-.tab-container .tab-p{
+
+.tab-container .tab-p {
     margin: 20px auto;
-color: #757575;
+    color: #757575;
 
 }
-.tab-container .tab-icon{
+
+.tab-container .tab-icon {
     margin-top: 20px;
-    
+
 }
-.last{
-  text-align: center;
+
+.last {
+    text-align: center;
     margin: 80px auto;
     max-width: 1360px;
     margin-top: 40px;
@@ -188,35 +208,79 @@ color: #757575;
     background-color: #75757528;
     padding-top: 20px;
 }
-.last-step h1{
+
+.last-step h1 {
     margin: 20px auto;
     font-size: 40px;
     font-weight: bolder;
 
-    
+
 }
-.last .subtitle{
+
+.last .subtitle {
     padding-top: 15px;
     font-size: 26px;
     font-weight: 400px;
-    
-}
-.last .btn{
-   border: none;
-padding: 20px ;
-border-radius: 5px;
-font-size: 15px;
-cursor: pointer;
-margin: 20px 0;
 
 }
-.last .last-subtitle{
-    margin : 15px 20px ;
+
+.last .btn-1 {
+    background-color: #30B868;
+    color:white;
+    border: none;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 20px 0;
+
+}
+
+.btn-1:hover {
+    background-color: #3039b8;
+    color:white;
+
+}
+
+.last .last-subtitle {
+    margin: 15px 20px;
     margin-bottom: 30px;
     font-size: 15px;
-padding: 40px 0;
+    padding: 40px 0;
 }
 
+/* footer */
+footer {
+    background-color: #001931;
+    padding: 50px;
+}
 
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
 
+.footer-container .link h3 {
+    color: aliceblue;
+    /* margin:  1px solid; */
+    /* display: flex;
+    flex-direction: column; */
 
+}
+
+.footer-container .link img {
+    width: 40px;
+    height: 40px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    padding: 10px 12px;
+}
+
+.foot-end p {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 14px;
+
+}
