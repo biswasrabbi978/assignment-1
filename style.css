@@ -107,7 +107,7 @@ margin-bottom: 25px;
 .info-grid{
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 20px;
 }
 
 /* card size */
@@ -117,6 +117,7 @@ margin-bottom: 25px;
     padding: 25px;
     background: #f5f5f5;
     border-radius: 10px;
+    
 }
 
 #info .info-note {
@@ -124,8 +125,59 @@ margin-bottom: 25px;
     background: #f5f5f5;
     padding: 25px;
     border-radius: 10px;
+    border: 1px solid red;
+    max-width: 260px;
+    
+    
+}
+
+.info-note img{
+    max-width: 40px;
+    margin-bottom: 20px;
+}
+
+.info-note h3{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.info-note p{
+ font-size: 18px;
+    line-height: 20px;
+    color: #757575;
+margin-bottom: 25px;
 }
 
 .info-heading{
     margin-bottom: 60px;
 }
+
+#tab{
+    padding-top: 40px;
+    display: flex;
+    margin: 120px 120px;
+
+
+}
+.tab-container{
+    margin-top: 130px;
+}
+.tab-container .tab-h{
+    color: green;
+}
+.tab-container .tab-h1{
+    margin: 20px auto ;
+    font-size:40px ;
+    font-weight: bolder;
+}
+.tab-container .tab-p{
+    margin: 20px auto;
+color: #757575;
+
+}
+.tab-container .tab-icon{
+    margin-top: 20px;
+    
+}
+
+
