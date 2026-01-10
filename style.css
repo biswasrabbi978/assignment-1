@@ -179,5 +179,44 @@ color: #757575;
     margin-top: 20px;
     
 }
+.last{
+  text-align: center;
+    margin: 80px auto;
+    max-width: 1360px;
+    margin-top: 40px;
+    margin: 120px 120px;
+    background-color: #75757528;
+    padding-top: 20px;
+}
+.last-step h1{
+    margin: 20px auto;
+    font-size: 40px;
+    font-weight: bolder;
+
+    
+}
+.last .subtitle{
+    padding-top: 15px;
+    font-size: 26px;
+    font-weight: 400px;
+    
+}
+.last .btn{
+   border: none;
+padding: 20px ;
+border-radius: 5px;
+font-size: 15px;
+cursor: pointer;
+margin: 20px 0;
+
+}
+.last .last-subtitle{
+    margin : 15px 20px ;
+    margin-bottom: 30px;
+    font-size: 15px;
+padding: 40px 0;
+}
+
+
 
 
