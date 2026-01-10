@@ -1,9 +1,7 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-
-
 }
 
 /* common */
@@ -12,30 +10,25 @@
     margin: 0 auto;
 }
 
-
 header {
     padding-top: 20px;
-
 }
 
 .nav-header {
     max-width: 1600px;
-    margin: 0 auto;
+    margin: 0 100px;
     display: flex;
     justify-content: space-between;
-    margin: 0 100px;
     align-items: center;
-
 }
 
 nav .menu {
     display: flex;
     gap: 20px;
-    text-decoration: none;
     align-items: center;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: black;
     font-weight: 500;
@@ -52,17 +45,15 @@ nav .menu {
 
 .btn:hover {
     background-color: rgba(27, 58, 199, 0.692);
-    color:white;
-    
+    color: white;
 }
 
 /* banner */
- .banner-section  .tip-btn {
+.banner-section .tip-btn {
     font-size: 20px;
-    margin-bottom: 15px;
+    margin: 50px 0 15px 0;
     color: rgb(85, 212, 73);
     padding: 20px 30px;
-    margin-top: 50px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -84,14 +75,11 @@ nav .menu {
 }
 
 #banner {
-    /* border: 1px solid red; */
     background-image: url(images/hero-bg.png);
     background-size: cover;
     background-position: center;
-    position: relative;
-    margin: 35px auto;
     text-align: center;
-
+    margin: 35px auto;
 }
 
 .button-container .btn-no-color {
@@ -99,23 +87,18 @@ nav .menu {
     padding: 20px 30px;
     border-radius: 5px;
     font-size: 15px;
-    color:white;
+    color: white;
     background-color: transparent;
     margin-bottom: 90px;
     cursor: pointer;
-
 }
-
 
 /* info */
 #info {
-    /* display: flex; */
     text-align: center;
     margin: 80px auto;
     max-width: 1360px;
 }
-
-/* ONLY the cards are flex  */
 
 .info-grid {
     display: flex;
@@ -123,25 +106,14 @@ nav .menu {
     gap: 20px;
 }
 
-/* card size */
-
 .info-note {
-    width: 25%;
-    padding: 25px;
-    background: #f5f5f5;
-    border-radius: 10px;
-
-}
-
-#info .info-note {
     width: 22%;
     background: #f5f5f5;
     padding: 25px;
     border-radius: 10px;
     border: 1px solid red;
     max-width: 260px;
-
-
+    text-align: center;
 }
 
 .info-note img {
@@ -166,12 +138,11 @@ nav .menu {
     margin-bottom: 60px;
 }
 
+/* tab */
 #tab {
-    padding-top: 40px;
     display: flex;
     margin: 120px 120px;
-
-
+    padding-top: 40px;
 }
 
 .tab-container {
@@ -191,19 +162,15 @@ nav .menu {
 .tab-container .tab-p {
     margin: 20px auto;
     color: #757575;
-
 }
 
 .tab-container .tab-icon {
     margin-top: 20px;
-
 }
 
+/* last section */
 .last {
     text-align: center;
-    margin: 80px auto;
-    max-width: 1360px;
-    margin-top: 40px;
     margin: 120px 120px;
     background-color: #75757528;
     padding-top: 20px;
@@ -213,20 +180,17 @@ nav .menu {
     margin: 20px auto;
     font-size: 40px;
     font-weight: bolder;
-
-
 }
 
 .last .subtitle {
     padding-top: 15px;
     font-size: 26px;
-    font-weight: 400px;
-
+    font-weight: 400;
 }
 
 .last .btn-1 {
     background-color: #30B868;
-    color:white;
+    color: white;
     border: none;
     padding: 20px;
     border-radius: 8px;
@@ -234,13 +198,11 @@ nav .menu {
     font-weight: 400;
     cursor: pointer;
     margin: 20px 0;
-
 }
 
 .btn-1:hover {
     background-color: #3039b8;
-    color:white;
-
+    color: white;
 }
 
 .last .last-subtitle {
@@ -253,34 +215,45 @@ nav .menu {
 /* footer */
 footer {
     background-color: #001931;
-    padding: 50px;
+    padding: 50px 20px;
 }
 
 footer .footer-container {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-container .link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .footer-container .link h3 {
-    color: aliceblue;
-    /* margin:  1px solid; */
-    /* display: flex;
-    flex-direction: column; */
 
+    color: aliceblue;
+    margin-right: 20px;
+   
 }
 
 .footer-container .link img {
     width: 40px;
     height: 40px;
-    background-color: #f5f5f5;
     border-radius: 50%;
-    padding: 10px 12px;
+    background-color: #f5f5f5; 
+    padding:10px 12px;
 }
 
-.foot-end p {
-    color: aliceblue;
+.foot-end {
     text-align: center;
-    margin-top: 14px;
+    margin-top: 20px;
+    color: aliceblue;
+}
 
+.foot-end hr {
+    border: 0.5px solid #ffffff44;
+    margin-bottom: 10px;
 }
